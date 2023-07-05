@@ -1,5 +1,8 @@
 # xammp-PHP-write-AndroidApp
 
+In order to connect to the database we created under the phpmyadmin screen we opened on xammp and perform database connection, writing and reading operations, we need to add the following file names to the new folder we created in the folder named httpdocs under the xammp folder and then connect it in android studio.
+
+
 xammp
 
 connection.php
