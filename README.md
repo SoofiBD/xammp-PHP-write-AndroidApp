@@ -3,7 +3,7 @@
 xammp
 
 connection.php
-
+-------------------
 <?php
 $servername = "localhost";
 $username = "root";
@@ -16,8 +16,9 @@ if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
 }
 ?>
-
+-------------------
 indexwrite.php
+-------------------
 
 <?php
 $servername = "localhost";
@@ -60,8 +61,10 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+-------------------
 
 indexread.php
+-------------------
 
 <?php
 $servername = "localhost";
@@ -96,4 +99,5 @@ foreach ($courseList as $course) {
 
 $conn->close();
 ?>
+-------------------
 
